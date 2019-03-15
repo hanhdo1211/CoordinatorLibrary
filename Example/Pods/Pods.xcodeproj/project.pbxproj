@@ -75,12 +75,12 @@
 		DB0C3A1B7AF9D519032C461CEA9B2C77 /* Pods-CoordinatorLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoordinatorLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		DEA62247968BEDD9EF2484AB4C2C719B /* Pods-CoordinatorLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECAF4384E73D44B0EA74407312D7D1A8 /* CoordinatorLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorLibrary.xcconfig; sourceTree = "<group>"; };
-		FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarCoordinatable.swift; path = CoordinatorLibrary/Classes/TabBarCoordinatable.swift; sourceTree = "<group>"; };
-		FCE9C252223C42D8002242A5 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinatable.swift; path = CoordinatorLibrary/Classes/Coordinatable.swift; sourceTree = "<group>"; };
-		FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinator.swift; path = CoordinatorLibrary/Classes/ChildCoordinator.swift; sourceTree = "<group>"; };
-		FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBarCoordinatable.swift; path = CoordinatorLibrary/Classes/NavigationBarCoordinatable.swift; sourceTree = "<group>"; };
-		FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinatable.swift; path = CoordinatorLibrary/Classes/ChildCoordinatable.swift; sourceTree = "<group>"; };
-		FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = CoordinatorLibrary/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
+		FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarCoordinatable.swift; path = Coordinator/Classes/TabBarCoordinatable.swift; sourceTree = "<group>"; };
+		FCE9C252223C42D8002242A5 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinatable.swift; path = Coordinator/Classes/Coordinatable.swift; sourceTree = "<group>"; };
+		FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinator.swift; path = Coordinator/Classes/ChildCoordinator.swift; sourceTree = "<group>"; };
+		FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBarCoordinatable.swift; path = Coordinator/Classes/NavigationBarCoordinatable.swift; sourceTree = "<group>"; };
+		FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinatable.swift; path = Coordinator/Classes/ChildCoordinatable.swift; sourceTree = "<group>"; };
+		FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = Coordinator/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
 		FF968A921299A7C36FD03350B51228FF /* CoordinatorLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLibrary-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -335,7 +335,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					D888FE5EB50238649DBD2804A3530032 = {
 						LastSwiftMigration = 1010;
@@ -763,6 +763,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
