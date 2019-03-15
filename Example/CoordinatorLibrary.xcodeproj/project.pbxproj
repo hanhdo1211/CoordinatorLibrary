@@ -107,8 +107,8 @@
 		607FACD21AFB9204008FA782 /* Example for Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				FCE9C24B223C41D6002242A5 /* AppCoordinator.swift */,
 				FCE9C24C223C41D6002242A5 /* AppDelegate.swift */,
+				FCE9C24B223C41D6002242A5 /* AppCoordinator.swift */,
 				FCE9C24A223C41D5002242A5 /* ViewControllerA.swift */,
 				FCE9C249223C41D5002242A5 /* ViewControllerB.swift */,
 				FCE9C236223C4120002242A5 /* Images.xcassets */,

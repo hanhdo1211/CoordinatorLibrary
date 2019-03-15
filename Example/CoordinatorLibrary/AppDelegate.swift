@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoordinatorLibrary
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     private lazy var appCoordinator: AppCoordinator = {
-        let coordinator = AppCoordinator(window: window!)
+        let coordinator = CoordinatorExampleAppCoordinator(window: window!)
         return coordinator
     }()
 
@@ -22,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         appCoordinator.start()
-        
         return true
     }
 

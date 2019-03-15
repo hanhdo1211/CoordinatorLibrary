@@ -40,6 +40,8 @@ class ViewControllerA: UIViewController {
         return b
     }()
     
+    // this allows the coordinator for the view controller to recieve tap events
+    // possible to use a delegate instead of closures but i've found closures do the trick just fine and they're much cleaner and a one liner.
     public var didTapButton: (() -> Void)?
 
     override func viewDidLoad() {
@@ -53,7 +55,6 @@ class ViewControllerA: UIViewController {
     
     @objc private func tap() {
         didTapButton?()
-
     }
 
 }
