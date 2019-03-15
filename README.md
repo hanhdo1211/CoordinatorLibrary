@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Coordinator
 
 [![CI Status](https://img.shields.io/travis/kaunamohammed/Coordinator.svg?style=flat)](https://travis-ci.org/kaunamohammed/Coordinator)
@@ -30,4 +29,3 @@ kaunamohammed, kaunamohammed@gmail.com
 Coordinator is available under the MIT license. See the LICENSE file for more info.
 =======
 # Coordinator
->>>>>>> 0e07d37bc6b8f33b71105d362140b3b47973913f
