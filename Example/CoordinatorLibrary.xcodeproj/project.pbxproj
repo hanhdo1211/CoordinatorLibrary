@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		213A9F9AFB807051D7540C4C /* Pods_CoordinatorLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80083A4CDDDC82D563F84878 /* Pods_CoordinatorLibrary_Tests.framework */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		79EEE2609393D7FEDB007EE5 /* Pods_CoordinatorLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158CD6FA6C88543FCFFE0195 /* Pods_CoordinatorLibrary_Example.framework */; };
-		FC43787F223C2209009C64DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43787E223C2208009C64DF /* AppDelegate.swift */; };
-		FC437883223C221C009C64DF /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC437880223C221C009C64DF /* ViewControllerB.swift */; };
-		FC437884223C221C009C64DF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC437881223C221C009C64DF /* AppCoordinator.swift */; };
-		FC437885223C221C009C64DF /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC437882223C221C009C64DF /* ViewControllerA.swift */; };
 		FC437887223C224B009C64DF /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC437886223C224A009C64DF /* Tests.swift */; };
 		FC437889223C2FE4009C64DF /* CoordinatorLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FC437888223C2FE3009C64DF /* CoordinatorLibrary.podspec */; };
+		FCE9C237223C4121002242A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE9C236223C4120002242A5 /* Images.xcassets */; };
+		FCE9C23A223C4152002242A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE9C238223C4152002242A5 /* LaunchScreen.xib */; };
+		FCE9C24D223C41D6002242A5 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C249223C41D5002242A5 /* ViewControllerB.swift */; };
+		FCE9C24E223C41D6002242A5 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C24A223C41D5002242A5 /* ViewControllerA.swift */; };
+		FCE9C24F223C41D6002242A5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C24B223C41D6002242A5 /* AppCoordinator.swift */; };
+		FCE9C250223C41D6002242A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C24C223C41D6002242A5 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,27 +31,25 @@
 
 /* Begin PBXFileReference section */
 		00DF7C8685FFEB7C23CBA4DA /* Pods-CoordinatorLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoordinatorLibrary_Example/Pods-CoordinatorLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		03C004511FBAB5B7595C8042 /* Pods_Coordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coordinator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0417905A652C1D19AD9EFC91 /* Pods-CoordinatorLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoordinatorLibrary_Tests/Pods-CoordinatorLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		158CD6FA6C88543FCFFE0195 /* Pods_CoordinatorLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoordinatorLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CoordinatorLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CoordinatorLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80083A4CDDDC82D563F84878 /* Pods_CoordinatorLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoordinatorLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E079759BE8391731FE30EA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD3DD466910F09B8CBC975FF /* Pods-CoordinatorLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoordinatorLibrary_Example/Pods-CoordinatorLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DC049EF8F0CFF96763EB580A /* Pods_Coordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coordinator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EC8415C7C998D6E390E40A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FC43787E223C2208009C64DF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC437880223C221C009C64DF /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
-		FC437881223C221C009C64DF /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		FC437882223C221C009C64DF /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
 		FC437886223C224A009C64DF /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		FC437888223C2FE3009C64DF /* CoordinatorLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CoordinatorLibrary.podspec; path = ../CoordinatorLibrary.podspec; sourceTree = "<group>"; };
 		FCC1831D0BDC4D3F2FAD4634 /* Pods-CoordinatorLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoordinatorLibrary_Tests/Pods-CoordinatorLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE9C236223C4120002242A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CoordinatorLibrary/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		FCE9C239223C4152002242A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = CoordinatorLibrary/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		FCE9C249223C41D5002242A5 /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerB.swift; path = CoordinatorLibrary/ViewControllerB.swift; sourceTree = SOURCE_ROOT; };
+		FCE9C24A223C41D5002242A5 /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerA.swift; path = CoordinatorLibrary/ViewControllerA.swift; sourceTree = SOURCE_ROOT; };
+		FCE9C24B223C41D6002242A5 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppCoordinator.swift; path = CoordinatorLibrary/AppCoordinator.swift; sourceTree = SOURCE_ROOT; };
+		FCE9C24C223C41D6002242A5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CoordinatorLibrary/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		FCE9C26F223C4961002242A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CoordinatorLibrary/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +107,12 @@
 		607FACD21AFB9204008FA782 /* Example for Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				FC43787E223C2208009C64DF /* AppDelegate.swift */,
-				FC437881223C221C009C64DF /* AppCoordinator.swift */,
-				FC437882223C221C009C64DF /* ViewControllerA.swift */,
-				FC437880223C221C009C64DF /* ViewControllerB.swift */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				FCE9C24B223C41D6002242A5 /* AppCoordinator.swift */,
+				FCE9C24C223C41D6002242A5 /* AppDelegate.swift */,
+				FCE9C24A223C41D5002242A5 /* ViewControllerA.swift */,
+				FCE9C249223C41D5002242A5 /* ViewControllerB.swift */,
+				FCE9C236223C4120002242A5 /* Images.xcassets */,
+				FCE9C238223C4152002242A5 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for Coordinator";
@@ -124,7 +122,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
+				FCE9C26F223C4961002242A5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -253,8 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				FCE9C237223C4121002242A5 /* Images.xcassets in Resources */,
+				FCE9C23A223C4152002242A5 /* LaunchScreen.xib in Resources */,
 				FC437889223C2FE4009C64DF /* CoordinatorLibrary.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,10 +340,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC437885223C221C009C64DF /* ViewControllerA.swift in Sources */,
-				FC437884223C221C009C64DF /* AppCoordinator.swift in Sources */,
-				FC43787F223C2209009C64DF /* AppDelegate.swift in Sources */,
-				FC437883223C221C009C64DF /* ViewControllerB.swift in Sources */,
+				FCE9C250223C41D6002242A5 /* AppDelegate.swift in Sources */,
+				FCE9C24F223C41D6002242A5 /* AppCoordinator.swift in Sources */,
+				FCE9C24E223C41D6002242A5 /* ViewControllerA.swift in Sources */,
+				FCE9C24D223C41D6002242A5 /* ViewControllerB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +366,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		FCE9C238223C4152002242A5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				FCE9C239223C4152002242A5 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -489,7 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CG9RTC2HJD;
-				INFOPLIST_FILE = Coordinator/Info.plist;
+				INFOPLIST_FILE = CoordinatorLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

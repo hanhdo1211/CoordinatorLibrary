@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1366D45B8B7304137321CF25B1303E7B /* NavigationBarCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54B856A1EE983A23FC025A5EFD269F9 /* NavigationBarCoordinatable.swift */; };
-		21300C599FF25CA161B4F375D11CE04B /* ChildCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811587BDE841D63FB0707C0F73AB9E04 /* ChildCoordinator.swift */; };
-		23C9F808E6AFD51A2023C9E6E28EF0BD /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61BB78617E6CB5FA04CA24BC995AF7 /* Coordinatable.swift */; };
-		2993EF49C8E0EA5BEB90E3378E005121 /* TabBarCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E26A20E8932160175956510E052A28 /* TabBarCoordinatable.swift */; };
-		33A62153514B9AC5DD9D091DC27D22DE /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A42D29557BA9838D48814FFC932711 /* NavigationCoordinator.swift */; };
-		418494C035769E7500F82B6E7E8FC6C4 /* ChildCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167136DB6FB2891727A96BF22A95536D /* ChildCoordinatable.swift */; };
 		4DE19B7EEDB6E50CB3E382B832CC48DE /* Pods-CoordinatorLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B54C6AF304324E2127F51298F4E50A5F /* Pods-CoordinatorLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD73BB4F06AA7D559592C325CDADD46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		64D4FEBF8F5E4B958B600F7B8C67ADD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -21,6 +15,12 @@
 		C019EBE39E6827B9DD2A4BED4F856D33 /* CoordinatorLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 326EC3458238A563CAA2E05AE5C23062 /* CoordinatorLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E06E77CCF2D8C52307770B4313F66AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F785B675E07EA90487D1A0115420BFE3 /* Pods-CoordinatorLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4998E3DC2DC632A4EA814CEB989CEBDF /* Pods-CoordinatorLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCE9C257223C42D9002242A5 /* TabBarCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */; };
+		FCE9C258223C42D9002242A5 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C252223C42D8002242A5 /* Coordinatable.swift */; };
+		FCE9C259223C42D9002242A5 /* ChildCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */; };
+		FCE9C25A223C42D9002242A5 /* NavigationBarCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */; };
+		FCE9C25B223C42D9002242A5 /* ChildCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */; };
+		FCE9C25C223C42D9002242A5 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */; };
 		FE5136615704271B8C9AC2FC16537F6B /* Pods-CoordinatorLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC20C4F2D5FF2A2954550EFCDEA6C1E1 /* Pods-CoordinatorLibrary_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -43,29 +43,25 @@
 
 /* Begin PBXFileReference section */
 		07A701C6323A40FDF3429D668B4F44A8 /* Pods-CoordinatorLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoordinatorLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		167136DB6FB2891727A96BF22A95536D /* ChildCoordinatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChildCoordinatable.swift; path = Coordinator/Classes/ChildCoordinatable.swift; sourceTree = "<group>"; };
 		17912927FA0EED71D0C1CEB4AA34CADA /* Pods-CoordinatorLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoordinatorLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
 		25D5A2AD09A83AD3507633BFD5CCCC7E /* Pods-CoordinatorLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoordinatorLibrary_Example-resources.sh"; sourceTree = "<group>"; };
 		272A2D333052C7BC9BD016B1BFC25E91 /* Pods-CoordinatorLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoordinatorLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2A9CBAC8E2297F5DF4361C32A68D78AC /* Pods_CoordinatorLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoordinatorLibrary_Tests.framework; path = "Pods-CoordinatorLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9CBAC8E2297F5DF4361C32A68D78AC /* Pods_CoordinatorLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoordinatorLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C614C3FC6BB379572D20F0358490D59 /* CoordinatorLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoordinatorLibrary.modulemap; sourceTree = "<group>"; };
 		326EC3458238A563CAA2E05AE5C23062 /* CoordinatorLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLibrary-umbrella.h"; sourceTree = "<group>"; };
-		38191D2E9E2585F571DC60B5EA455609 /* CoordinatorLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoordinatorLibrary.framework; path = CoordinatorLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A61BB78617E6CB5FA04CA24BC995AF7 /* Coordinatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinatable.swift; path = Coordinator/Classes/Coordinatable.swift; sourceTree = "<group>"; };
+		38191D2E9E2585F571DC60B5EA455609 /* CoordinatorLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoordinatorLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4998E3DC2DC632A4EA814CEB989CEBDF /* Pods-CoordinatorLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoordinatorLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		4F4D4DDE7184533690D3B186158F6A8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		547C34F8DEBBB1E7B83D18D917A254CC /* Pods_CoordinatorLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoordinatorLibrary_Example.framework; path = "Pods-CoordinatorLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4D4DDE7184533690D3B186158F6A8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		547C34F8DEBBB1E7B83D18D917A254CC /* Pods_CoordinatorLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoordinatorLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D9D5BE47C9CCD0FDC3D84A3CED0D29 /* Pods-CoordinatorLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoordinatorLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		57C626D41C963F69106295005A2E1190 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		57C626D41C963F69106295005A2E1190 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B587040C110C92B3CD667DCB6573C19 /* Pods-CoordinatorLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoordinatorLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6437E74AD7EC7F6AF9B275838B88768D /* Pods-CoordinatorLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		68E26A20E8932160175956510E052A28 /* TabBarCoordinatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarCoordinatable.swift; path = Coordinator/Classes/TabBarCoordinatable.swift; sourceTree = "<group>"; };
 		77504B73F043B0B69790E85D4316A901 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CF328F04447549E71FB78167AE21940 /* Pods-CoordinatorLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoordinatorLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		811587BDE841D63FB0707C0F73AB9E04 /* ChildCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChildCoordinator.swift; path = Coordinator/Classes/ChildCoordinator.swift; sourceTree = "<group>"; };
 		83EA5E3316A46D3312DDE4F2AA837076 /* CoordinatorLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoordinatorLibrary-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AA464FB8237582755C712969CC8D290 /* Pods-CoordinatorLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A0E6F1F194C3ACE5BCEBB4A5C9784676 /* Pods-CoordinatorLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A24B08E2A468B423CFEA6D344EC95B6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,14 +69,18 @@
 		B8788C543E1FEDDB39795747E78D7137 /* Pods-CoordinatorLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoordinatorLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BFBAB168FAD04049607153627857CE73 /* Pods-CoordinatorLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C2DA67113CA7EBC5909C6288D082E0D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9A42D29557BA9838D48814FFC932711 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = Coordinator/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
 		CC20C4F2D5FF2A2954550EFCDEA6C1E1 /* Pods-CoordinatorLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoordinatorLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		D2B538D62018FB5A6C20C10E2FEE469D /* CoordinatorLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CoordinatorLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2B538D62018FB5A6C20C10E2FEE469D /* CoordinatorLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CoordinatorLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D2F765987BEE65D669DAB4477DF6EC07 /* Pods-CoordinatorLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoordinatorLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DB0C3A1B7AF9D519032C461CEA9B2C77 /* Pods-CoordinatorLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoordinatorLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		DEA62247968BEDD9EF2484AB4C2C719B /* Pods-CoordinatorLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E54B856A1EE983A23FC025A5EFD269F9 /* NavigationBarCoordinatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarCoordinatable.swift; path = Coordinator/Classes/NavigationBarCoordinatable.swift; sourceTree = "<group>"; };
 		ECAF4384E73D44B0EA74407312D7D1A8 /* CoordinatorLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorLibrary.xcconfig; sourceTree = "<group>"; };
+		FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarCoordinatable.swift; path = CoordinatorLibrary/Classes/TabBarCoordinatable.swift; sourceTree = "<group>"; };
+		FCE9C252223C42D8002242A5 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinatable.swift; path = CoordinatorLibrary/Classes/Coordinatable.swift; sourceTree = "<group>"; };
+		FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinator.swift; path = CoordinatorLibrary/Classes/ChildCoordinator.swift; sourceTree = "<group>"; };
+		FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBarCoordinatable.swift; path = CoordinatorLibrary/Classes/NavigationBarCoordinatable.swift; sourceTree = "<group>"; };
+		FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinatable.swift; path = CoordinatorLibrary/Classes/ChildCoordinatable.swift; sourceTree = "<group>"; };
+		FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = CoordinatorLibrary/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
 		FF968A921299A7C36FD03350B51228FF /* CoordinatorLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLibrary-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,12 +185,12 @@
 		AC19C133BD4FCF2874D34C26DDB06AD0 /* CoordinatorLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				167136DB6FB2891727A96BF22A95536D /* ChildCoordinatable.swift */,
-				811587BDE841D63FB0707C0F73AB9E04 /* ChildCoordinator.swift */,
-				3A61BB78617E6CB5FA04CA24BC995AF7 /* Coordinatable.swift */,
-				E54B856A1EE983A23FC025A5EFD269F9 /* NavigationBarCoordinatable.swift */,
-				C9A42D29557BA9838D48814FFC932711 /* NavigationCoordinator.swift */,
-				68E26A20E8932160175956510E052A28 /* TabBarCoordinatable.swift */,
+				FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */,
+				FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */,
+				FCE9C252223C42D8002242A5 /* Coordinatable.swift */,
+				FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */,
+				FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */,
+				FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */,
 				AF824C8F7DCCF5A3A3C983125B6B385E /* Pod */,
 				0612B7F80C82DC500AEDE68C1DB245A0 /* Support Files */,
 			);
@@ -336,6 +336,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					D888FE5EB50238649DBD2804A3530032 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -401,13 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418494C035769E7500F82B6E7E8FC6C4 /* ChildCoordinatable.swift in Sources */,
-				21300C599FF25CA161B4F375D11CE04B /* ChildCoordinator.swift in Sources */,
-				23C9F808E6AFD51A2023C9E6E28EF0BD /* Coordinatable.swift in Sources */,
 				76FA13EF33F31DC1D8EACEBF2031D45B /* CoordinatorLibrary-dummy.m in Sources */,
-				1366D45B8B7304137321CF25B1303E7B /* NavigationBarCoordinatable.swift in Sources */,
-				33A62153514B9AC5DD9D091DC27D22DE /* NavigationCoordinator.swift in Sources */,
-				2993EF49C8E0EA5BEB90E3378E005121 /* TabBarCoordinatable.swift in Sources */,
+				FCE9C259223C42D9002242A5 /* ChildCoordinator.swift in Sources */,
+				FCE9C25B223C42D9002242A5 /* ChildCoordinatable.swift in Sources */,
+				FCE9C257223C42D9002242A5 /* TabBarCoordinatable.swift in Sources */,
+				FCE9C258223C42D9002242A5 /* Coordinatable.swift in Sources */,
+				FCE9C25A223C42D9002242A5 /* NavigationBarCoordinatable.swift in Sources */,
+				FCE9C25C223C42D9002242A5 /* NavigationCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECAF4384E73D44B0EA74407312D7D1A8 /* CoordinatorLibrary.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -489,8 +495,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -527,8 +532,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -640,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECAF4384E73D44B0EA74407312D7D1A8 /* CoordinatorLibrary.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
