@@ -1,6 +1,6 @@
 # Coordinator
 
-[![CI Status](https://img.shields.io/travis/kaunamohammed/Coordinator.svg?style=flat)](https://travis-ci.org/kaunamohammed/Coordinator)
+![CI Status](https://travis-ci.com/kaunamohammed/Coordinator.svg?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/Coordinator.svg?style=flat)](https://cocoapods.org/pods/Coordinator)
 [![License](https://img.shields.io/cocoapods/l/Coordinator.svg?style=flat)](https://cocoapods.org/pods/Coordinator)
 [![Platform](https://img.shields.io/cocoapods/p/Coordinator.svg?style=flat)](https://cocoapods.org/pods/Coordinator)
