@@ -159,8 +159,6 @@
 		A5BBD9E34B12640818239D42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03C004511FBAB5B7595C8042 /* Pods_Coordinator_Example.framework */,
-				DC049EF8F0CFF96763EB580A /* Pods_Coordinator_Tests.framework */,
 				158CD6FA6C88543FCFFE0195 /* Pods_CoordinatorLibrary_Example.framework */,
 				80083A4CDDDC82D563F84878 /* Pods_CoordinatorLibrary_Tests.framework */,
 			);
