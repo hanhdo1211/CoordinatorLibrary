@@ -1,16 +1,16 @@
 PODS:
-  - Coordinator (0.1.0)
+  - CoordinatorLibrary (1.0.0)
 
 DEPENDENCIES:
-  - Coordinator (from `../`)
+  - CoordinatorLibrary (from `../`)
 
 EXTERNAL SOURCES:
-  Coordinator:
+  CoordinatorLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Coordinator: ab83d3fb8ab424920323bf4fb444ed3b2fb1eff2
+  CoordinatorLibrary: 418875949113410569d8ac5e956ca8a296c22d66
 
-PODFILE CHECKSUM: e7803c260dae004411f671417c9fbffbb8c32f54
+PODFILE CHECKSUM: 5a60ca03a50b3c811554681a641afd17f405764f
 
 COCOAPODS: 1.5.3

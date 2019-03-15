@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name    = "Coordinator"
+  s.name    = "CoordinatorLibrary"
   s.version = "1.0.0"
   s.summary = "Coordinator is a library to help simplify working with the 'Coordinator Pattern' "
   s.description = "Coordinator is based on the 'Coordinator Pattern' which attempts to solve the problem of 'Seperation of concerns' by seperating navigation flow logic from a UIViewController and abstracting navigation into it's own object, allowing for reusability of ViewControllers. The library helps make it simpler to adopt/use the 'Coordinator Pattern' "

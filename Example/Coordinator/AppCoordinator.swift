@@ -6,7 +6,7 @@
 //  Copyright © 2018 Kauna Mohammed. All rights reserved.
 //
 
-import Coordinator
+import CoordinatorLibrary
 import UIKit.UIWindow
 
 public final class AppCoordinator: Coordinatable, ChildCoordinatable {

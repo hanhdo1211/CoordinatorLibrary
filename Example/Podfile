@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'Coordinator_Example' do
-  pod 'Coordinator', :path => '../'
+target 'CoordinatorLibrary_Example' do
+  pod 'CoordinatorLibrary', :path => '../'
 
-  target 'Coordinator_Tests' do
+  target 'CoordinatorLibrary_Tests' do
     inherit! :search_paths
 
     

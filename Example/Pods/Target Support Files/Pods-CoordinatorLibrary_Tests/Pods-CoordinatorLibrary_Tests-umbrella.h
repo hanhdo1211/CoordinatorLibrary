@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CoordinatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char CoordinatorVersionString[];
+FOUNDATION_EXPORT double Pods_CoordinatorLibrary_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_CoordinatorLibrary_TestsVersionString[];
 

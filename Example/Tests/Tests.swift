@@ -1,5 +1,5 @@
 import XCTest
-import Coordinator
+import CoordinatorLibrary
 
 class Tests: XCTestCase {
     

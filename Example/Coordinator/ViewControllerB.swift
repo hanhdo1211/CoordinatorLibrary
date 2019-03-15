@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Coordinator
+import CoordinatorLibrary
 
 class ViewControllerBCoordinator: NavigationCoordinator<ViewControllerB> {
     
