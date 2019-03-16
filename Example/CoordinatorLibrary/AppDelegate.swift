@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     private lazy var appCoordinator: AppCoordinator = {
-        let coordinator = CoordinatorExampleAppCoordinator(presenter: .init(), window: window!)
+        let coordinator = CoordinatorExampleAppCoordinator(window: window!)
         return coordinator
     }()
 

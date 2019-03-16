@@ -13,7 +13,7 @@ import CoordinatorLibrary
 class CoordinatorExampleAppCoordinator: AppCoordinator {
     
     override func start() {
-        Bool.random() ? startChildA() : startChildB()
+        startChildA()
     }
     
 }

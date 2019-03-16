@@ -17,7 +17,7 @@ open class AppCoordinator: Coordinatable, ChildCoordinatable {
     
     lazy public var childCoordinators: [Coordinatable] = []
     
-    public init(presenter: UINavigationController, window: UIWindow) {
+    public init(presenter: UINavigationController = .init(), window: UIWindow) {
         self.window = window
         self.presenter = presenter
         window.rootViewController = presenter
