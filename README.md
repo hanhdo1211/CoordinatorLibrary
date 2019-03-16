@@ -101,7 +101,7 @@ extension NavigationCoordinator {
 
 ```
 
-The relevant part is where ```NavigationCoordinator``` conforms to ```UINavigationControllerDelegate```. Everytime this delegate method is called, the class checks to see if the viewController is the one same as the one that was presented and if it was then it gets removed by ```NavigationCoordinator```
+The relevant part is where ```NavigationCoordinator``` conforms to ```UINavigationControllerDelegate```. Everytime this delegate method is called, the class checks to see if the viewController is the same as the one that was presented and if it was then it gets removed by ```NavigationCoordinator```
 
 ### Child Coordinators
 
@@ -121,7 +121,7 @@ When we subclass ```ChildCoordinator``` we are then able to handle adding and re
 **Note:** For the most part, you do not really need to call ```remove()``` directly, you can just add the remove method into the child as shown above. 
 
 ### Communication
-Communication between Coordinators is a 1:1 Parent -> Child relationship. There are a two ways to handle this communication namely; Delegation and Closures. Personally, I prefer to handle communication with Closures because they tend to be simpler to introduce and they reduce tight coupling between Parent -> Child.
+Communication between Coordinators is a 1:1 Parent -> Child relationship. There are two ways to handle this communication namely; Delegation and Closures. Personally, I prefer to handle communication with Closures because they tend to be simpler to introduce and reduce tight coupling between Parent -> Child.
 
 In this example, the ViewControllerACoordinator holds a reference to ViewControllerA which has a closure being called everytime the button in ViewControllerA was tapped. ``` didTapButton: (() -> Void)? ``` In response to receiving the event, the Coordinator will spin-up ViewControllerBCoordinator and call ``` start() ``` to make the transition to ViewControllerB
 
