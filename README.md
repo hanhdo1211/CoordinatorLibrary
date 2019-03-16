@@ -148,6 +148,23 @@ class ViewControllerACoordinator: ChildCoordinator<ViewControllerA> {
 
 ```
 
+## StoryboardSupportable
+
+```swift
+public protocol StoryBoardSupportable: class
+```
+
+StoryboardSupportable is a protocol that allows for storyboard-based instantiation support for view controllers. When using Storyboards, this is how you instantiate your view controller -
+
+```swift
+ // when using storyboards
+ viewController = ViewControllerA.instantiate(from: "Main")
+```
+When you want a view controller to be able to instantiate it's self like above, you make it conform to StoryBoardSupportable.
+
+```swift
+class ViewControllerA: UIViewController, StoryBoardSupportable
+```
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
