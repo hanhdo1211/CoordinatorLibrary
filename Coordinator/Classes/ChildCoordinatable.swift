@@ -11,7 +11,7 @@
 public protocol ChildCoordinatable: class {
     
     /// The array containing any child coordinatable
-    var childCoordinators: [Coordinatable] { get set }
+    var childCoordinators: [Coordinatable] { get set } 
     
     /**
      

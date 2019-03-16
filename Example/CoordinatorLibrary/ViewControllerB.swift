@@ -18,6 +18,7 @@ class ViewControllerBCoordinator: NavigationCoordinator<ViewControllerB> {
     
 }
 
+
 class ViewControllerB: UIViewController {
     
     override func viewDidLoad() {

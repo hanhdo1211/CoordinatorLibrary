@@ -38,7 +38,7 @@ open class NavigationCoordinator<T: UIViewController>: NSObject, UINavigationCon
 
 
 // MARK: - UINavigationControllerDelegate
-extension NavigationCoordinator {
+extension NavigationCoordinator  {
     func navigationController(_ navigationController: UINavigationController,
                               didShow viewController: UIViewController,
                               animated: Bool) {

@@ -12,12 +12,13 @@ import Foundation
 open class AppCoordinator: Coordinatable, ChildCoordinatable {
     
     public let window: UIWindow
-    public var presenter: UINavigationController = .init()
+    public let presenter: UINavigationController
     
     lazy public var childCoordinators: [Coordinatable] = []
     
-    public init(window: UIWindow) {
+    public init(presenter: UINavigationController, window: UIWindow) {
         self.window = window
+        self.presenter = presenter
         window.rootViewController = presenter
         window.makeKeyAndVisible()
     }
