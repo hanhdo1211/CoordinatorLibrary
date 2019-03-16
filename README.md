@@ -1,9 +1,8 @@
 # CoordinatorLibrary
 
-![CI Status](https://travis-ci.com/kaunamohammed/Coordinator.svg?branch=master)
-[![Version](https://img.shields.io/cocoapods/v/Coordinator.svg?style=flat)](https://cocoapods.org/pods/CoordinatorLibrary)
-[![License](https://img.shields.io/cocoapods/l/Coordinator.svg?style=flat)](https://cocoapods.org/pods/CoordinatorLibrary)
-[![Platform](https://img.shields.io/cocoapods/p/Coordinator.svg?style=flat)](https://cocoapods.org/pods/CoordinatorLibrary)
+[![Build Status](https://travis-ci.com/kaunamohammed/CoordinatorLibrary.svg?branch=master)](https://travis-ci.com/kaunamohammed/CoordinatorLibrary)
+[![License](https://img.shields.io/cocoapods/l/CoordinatorLibrary.svg?style=flat)](https://cocoapods.org/pods/CoordinatorLibrary)
+[![Platform](https://img.shields.io/cocoapods/p/CoordinatorLibrary.svg?style=flat)](https://cocoapods.org/pods/CoordinatorLibrary)
 
 ## Example
 
