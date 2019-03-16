@@ -12,6 +12,7 @@ import CoordinatorLibrary
 class ViewControllerACoordinator: ChildCoordinator<ViewControllerA> {
     
     override func start() {
+        
         viewController = ViewControllerA()
         navigate(to: viewController, with: .push, animated: true)
         
