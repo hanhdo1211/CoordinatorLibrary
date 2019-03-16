@@ -6,6 +6,19 @@
 [![Platform](https://img.shields.io/cocoapods/p/CoordinatorLibrary.svg?style=flat)](https://cocoapods.org/pods/CoordinatorLibrary)
 ![GitHub Release Date](https://img.shields.io/github/release-date/kaunamohammed/CoordinatorLibrary.svg)
 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Installation
+
+CoordinatorLibrary is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'CoordinatorLibrary'
+```
+
 ## Coordinator
 
 Coordinators are actually just as the name suggest, Coordinators. They are designed to abstract away the navigation logic from view controllers and help with better seperation of concerns. Overall, the Coordinator consists of Three protocols, to clearly define responsibilities of each type conforming to them and allow for some protocol composition.
@@ -160,22 +173,12 @@ StoryboardSupportable is a protocol that allows for storyboard-based instantiati
  // when using storyboards
  viewController = ViewControllerA.instantiate(from: "Main")
 ```
+**Note:** if you use a view model/presenter etc, you will need to use property initialization after instantiating the viewcontroller.
+
 When you want a view controller to be able to instantiate it's self like above, you make it conform to StoryBoardSupportable.
 
 ```swift
 class ViewControllerA: UIViewController, StoryBoardSupportable
-```
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Installation
-
-CoordinatorLibrary is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'CoordinatorLibrary'
 ```
 
 ## Author
