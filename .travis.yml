@@ -7,8 +7,6 @@ osx_image: xcode10.1
 xcode_project: Coordinator.xcodeproj
 xcode_scheme: Coordinator
 xcode_destination: name=iPhone X,OS=12.1
-# cache: cocoapods
-# podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
