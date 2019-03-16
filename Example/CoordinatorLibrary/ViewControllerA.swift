@@ -30,7 +30,7 @@ class ViewControllerACoordinator: ChildCoordinator<ViewControllerA> {
 
 
 
-class ViewControllerA: UIViewController {
+class ViewControllerA: UIViewController, StoryBoardSupportable {
     
     private lazy var button: UIButton = {
         let b = UIButton()

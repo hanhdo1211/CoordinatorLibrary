@@ -12,7 +12,7 @@ import UIKit
  `NavigationCoordinator` is a base class for subclasses wanting to provide a navigation flow
  
  */
-open class NavigationCoordinator<T: UIViewController>: NSObject, UINavigationControllerDelegate, NavigationFlowCoordinator {
+open class NavigationCoordinator<T: UIViewController>: NSObject, UINavigationControllerDelegate, NavigationFlowCoordinator { 
     
     public let presenter: UINavigationController
     

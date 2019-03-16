@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// A base class that acts as the starting coordinator
 /// This class should kick off coordination from the 'AppDelegate'

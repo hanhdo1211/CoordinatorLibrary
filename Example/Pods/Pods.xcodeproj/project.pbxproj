@@ -22,6 +22,7 @@
 		FCE9C25B223C42D9002242A5 /* ChildCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */; };
 		FCE9C25C223C42D9002242A5 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */; };
 		FCE9C274223C5675002242A5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C273223C5675002242A5 /* AppCoordinator.swift */; };
+		FCE9C278223D3D6B002242A5 /* StoryBoardSupportable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C277223D3D6B002242A5 /* StoryBoardSupportable.swift */; };
 		FE5136615704271B8C9AC2FC16537F6B /* Pods-CoordinatorLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC20C4F2D5FF2A2954550EFCDEA6C1E1 /* Pods-CoordinatorLibrary_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,7 @@
 		FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinatable.swift; path = Coordinator/Classes/ChildCoordinatable.swift; sourceTree = "<group>"; };
 		FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = Coordinator/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
 		FCE9C273223C5675002242A5 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppCoordinator.swift; path = Coordinator/Classes/AppCoordinator.swift; sourceTree = "<group>"; };
+		FCE9C277223D3D6B002242A5 /* StoryBoardSupportable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoryBoardSupportable.swift; path = Coordinator/Classes/StoryBoardSupportable.swift; sourceTree = "<group>"; };
 		FF968A921299A7C36FD03350B51228FF /* CoordinatorLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoordinatorLibrary-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,6 +196,7 @@
 				FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */,
 				FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */,
 				FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */,
+				FCE9C277223D3D6B002242A5 /* StoryBoardSupportable.swift */,
 				AF824C8F7DCCF5A3A3C983125B6B385E /* Pod */,
 				0612B7F80C82DC500AEDE68C1DB245A0 /* Support Files */,
 			);
@@ -414,6 +417,7 @@
 				FCE9C25B223C42D9002242A5 /* ChildCoordinatable.swift in Sources */,
 				FCE9C257223C42D9002242A5 /* TabBarCoordinatable.swift in Sources */,
 				FCE9C274223C5675002242A5 /* AppCoordinator.swift in Sources */,
+				FCE9C278223D3D6B002242A5 /* StoryBoardSupportable.swift in Sources */,
 				FCE9C258223C42D9002242A5 /* Coordinatable.swift in Sources */,
 				FCE9C25A223C42D9002242A5 /* NavigationBarCoordinatable.swift in Sources */,
 				FCE9C25C223C42D9002242A5 /* NavigationCoordinator.swift in Sources */,
