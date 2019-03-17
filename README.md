@@ -206,4 +206,4 @@ Have an issue? Open an issue! Have an idea? Open a pull request!
 
 If you like the library, please :star: it!
 
-Cheers :beers:
+Cheers mate :beers:
