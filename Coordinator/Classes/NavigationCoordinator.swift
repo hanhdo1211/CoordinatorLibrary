@@ -13,40 +13,36 @@ import UIKit
  
  */
 open class NavigationCoordinator<T: UIViewController>: NSObject, UINavigationControllerDelegate, NavigationFlowCoordinator { 
+  
+  public let presenter: UINavigationController
+  
+  /// The `UIViewController` associated with the class
+  public var viewController: T!
+  
+  /// Removes the `Coordinatable` instance when the `UINavigationController` dismisses the `UIViewController`
+  var removeCoordinator: ((Coordinatable) -> ())
+  
+  public init(presenter: UINavigationController = .init(), removeCoordinator: @escaping ((Coordinatable) -> ())) {
+    self.presenter = presenter
+    self.removeCoordinator = removeCoordinator
+    super.init()
+    presenter.delegate = self
+  }
+  
+  // MARK: - NavigationFlowCoordinator
+  open func start() {
+    fatalError("Subclass must provide implementation")
+  }
+  
+  public func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
     
-    public let presenter: UINavigationController
     
-    /// The `UIViewController` associated with the class
-    public var viewController: T!
+    guard let viewController = navigationController.transitionCoordinator?.viewController(forKey: .from), !navigationController.viewControllers.contains(viewController) else { return }
     
-    /// Removes the `Coordinatable` instance when the `UINavigationController` dismisses the `UIViewController`
-    var removeCoordinator: ((Coordinatable) -> ())
-    
-    public init(presenter: UINavigationController, removeCoordinator: @escaping ((Coordinatable) -> ())) {
-        self.presenter = presenter
-        self.removeCoordinator = removeCoordinator
-        super.init()
-        presenter.delegate = self
+    if viewController is T  {
+      removeCoordinator(self)
     }
     
-    // MARK: - NavigationFlowCoordinator
-    open func start() {
-        fatalError("Subclass must provide implementation")
-    }
-    
-}
-
-
-// MARK: - UINavigationControllerDelegate
-extension NavigationCoordinator  {
-    func navigationController(_ navigationController: UINavigationController,
-                              didShow viewController: UIViewController,
-                              animated: Bool) {
-        
-        guard let viewController = navigationController.transitionCoordinator?.viewController(forKey: .from), !navigationController.viewControllers.contains(viewController) else { return }
-        
-        if viewController is T  {
-            removeCoordinator(self)
-        }
-    }
+  }
+  
 }
