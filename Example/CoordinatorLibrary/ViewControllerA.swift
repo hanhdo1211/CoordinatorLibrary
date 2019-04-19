@@ -11,13 +11,12 @@ import CoordinatorLibrary
 
 class ViewControllerACoordinator: ChildCoordinator<ViewControllerA>, TabBarType {
   
-  var tabBarItem: UITabBarItem = .init(tabBarSystemItem: .history, tag: 0)
+  var tabBarItem: UITabBarItem = .init(title: "Your Wall", image: .userWall, selectedImage: nil)
   
   override func start() {
     viewController = .init()
-    viewController.tabBarItem = tabBarItem
+    presenter.tabBarItem = tabBarItem
     navigate(to: viewController, with: .push, animated: true)
-    
     viewController.didTapButton = { [startChild] in
       startChild()
     }
@@ -28,7 +27,6 @@ class ViewControllerACoordinator: ChildCoordinator<ViewControllerA>, TabBarType 
                                            removeCoordinator: remove)
     add(child: child)
     child.start()
-    printChildCount()
   }
   
 }

@@ -9,13 +9,13 @@
 import UIKit
 import CoordinatorLibrary
 
-class ViewControllerCCoordinator: NavigationCoordinator<ViewControllerC> {
+class ViewControllerCCoordinator: NavigationCoordinator<ViewControllerC>, TabBarType {
   
-  var tabBarItem: UITabBarItem = .init(tabBarSystemItem: .contacts, tag: 0)
+  var tabBarItem: UITabBarItem = .init(title: "Home", image: .homeImage, selectedImage: nil)
   
   override func start() {
     viewController = .init()
-    viewController.tabBarItem = tabBarItem
+    presenter.tabBarItem = tabBarItem
     navigate(to: viewController, with: .push, animated: true)
   }
   

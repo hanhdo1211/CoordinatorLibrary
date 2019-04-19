@@ -13,6 +13,7 @@
 		FC437889223C2FE4009C64DF /* CoordinatorLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FC437888223C2FE3009C64DF /* CoordinatorLibrary.podspec */; };
 		FC63C3662266750C00EEBB81 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC63C3652266750C00EEBB81 /* TabBarCoordinator.swift */; };
 		FC63C36822667EC000EEBB81 /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC63C36722667EC000EEBB81 /* ViewControllerC.swift */; };
+		FCCCECE3226A1F0800707AD5 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCECE2226A1F0700707AD5 /* UIImage+Icons.swift */; };
 		FCE9C237223C4121002242A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE9C236223C4120002242A5 /* Images.xcassets */; };
 		FCE9C23A223C4152002242A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE9C238223C4152002242A5 /* LaunchScreen.xib */; };
 		FCE9C24D223C41D6002242A5 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C249223C41D5002242A5 /* ViewControllerB.swift */; };
@@ -47,6 +48,7 @@
 		FC63C3652266750C00EEBB81 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarCoordinator.swift; path = CoordinatorLibrary/TabBarCoordinator.swift; sourceTree = SOURCE_ROOT; };
 		FC63C36722667EC000EEBB81 /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewControllerC.swift; path = CoordinatorLibrary/ViewControllerC.swift; sourceTree = SOURCE_ROOT; };
 		FCC1831D0BDC4D3F2FAD4634 /* Pods-CoordinatorLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoordinatorLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoordinatorLibrary_Tests/Pods-CoordinatorLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCCCECE2226A1F0700707AD5 /* UIImage+Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Icons.swift"; path = "CoordinatorLibrary/UIImage+Icons.swift"; sourceTree = SOURCE_ROOT; };
 		FCE9C236223C4120002242A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CoordinatorLibrary/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		FCE9C239223C4152002242A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = CoordinatorLibrary/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
 		FCE9C249223C41D5002242A5 /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerB.swift; path = CoordinatorLibrary/ViewControllerB.swift; sourceTree = SOURCE_ROOT; };
@@ -117,6 +119,7 @@
 				FCE9C24A223C41D5002242A5 /* ViewControllerA.swift */,
 				FCE9C249223C41D5002242A5 /* ViewControllerB.swift */,
 				FC63C36722667EC000EEBB81 /* ViewControllerC.swift */,
+				FCCCECE2226A1F0700707AD5 /* UIImage+Icons.swift */,
 				FCE9C236223C4120002242A5 /* Images.xcassets */,
 				FCE9C238223C4152002242A5 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -348,6 +351,7 @@
 			files = (
 				FC63C36822667EC000EEBB81 /* ViewControllerC.swift in Sources */,
 				FCE9C250223C41D6002242A5 /* AppDelegate.swift in Sources */,
+				FCCCECE3226A1F0800707AD5 /* UIImage+Icons.swift in Sources */,
 				FCE9C24F223C41D6002242A5 /* AppCoordinator.swift in Sources */,
 				FCE9C24E223C41D6002242A5 /* ViewControllerA.swift in Sources */,
 				FC63C3662266750C00EEBB81 /* TabBarCoordinator.swift in Sources */,
