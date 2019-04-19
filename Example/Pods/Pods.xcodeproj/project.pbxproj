@@ -15,7 +15,7 @@
 		C019EBE39E6827B9DD2A4BED4F856D33 /* CoordinatorLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 326EC3458238A563CAA2E05AE5C23062 /* CoordinatorLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E06E77CCF2D8C52307770B4313F66AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F785B675E07EA90487D1A0115420BFE3 /* Pods-CoordinatorLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4998E3DC2DC632A4EA814CEB989CEBDF /* Pods-CoordinatorLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCE9C257223C42D9002242A5 /* TabBarCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */; };
+		FCE9C257223C42D9002242A5 /* TabBarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C251223C42D8002242A5 /* TabBarType.swift */; };
 		FCE9C258223C42D9002242A5 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C252223C42D8002242A5 /* Coordinatable.swift */; };
 		FCE9C259223C42D9002242A5 /* ChildCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */; };
 		FCE9C25A223C42D9002242A5 /* NavigationBarCoordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */; };
@@ -77,7 +77,7 @@
 		DB0C3A1B7AF9D519032C461CEA9B2C77 /* Pods-CoordinatorLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoordinatorLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		DEA62247968BEDD9EF2484AB4C2C719B /* Pods-CoordinatorLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoordinatorLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECAF4384E73D44B0EA74407312D7D1A8 /* CoordinatorLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoordinatorLibrary.xcconfig; sourceTree = "<group>"; };
-		FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarCoordinatable.swift; path = Coordinator/Classes/TabBarCoordinatable.swift; sourceTree = "<group>"; };
+		FCE9C251223C42D8002242A5 /* TabBarType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarType.swift; path = Coordinator/Classes/TabBarType.swift; sourceTree = "<group>"; };
 		FCE9C252223C42D8002242A5 /* Coordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinatable.swift; path = Coordinator/Classes/Coordinatable.swift; sourceTree = "<group>"; };
 		FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildCoordinator.swift; path = Coordinator/Classes/ChildCoordinator.swift; sourceTree = "<group>"; };
 		FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBarCoordinatable.swift; path = Coordinator/Classes/NavigationBarCoordinatable.swift; sourceTree = "<group>"; };
@@ -189,13 +189,13 @@
 		AC19C133BD4FCF2874D34C26DDB06AD0 /* CoordinatorLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				FCE9C273223C5675002242A5 /* AppCoordinator.swift */,
-				FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */,
-				FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */,
+				FCE9C251223C42D8002242A5 /* TabBarType.swift */,
 				FCE9C252223C42D8002242A5 /* Coordinatable.swift */,
+				FCE9C255223C42D9002242A5 /* ChildCoordinatable.swift */,
 				FCE9C254223C42D8002242A5 /* NavigationBarCoordinatable.swift */,
+				FCE9C253223C42D8002242A5 /* ChildCoordinator.swift */,
+				FCE9C273223C5675002242A5 /* AppCoordinator.swift */,
 				FCE9C256223C42D9002242A5 /* NavigationCoordinator.swift */,
-				FCE9C251223C42D8002242A5 /* TabBarCoordinatable.swift */,
 				FCE9C277223D3D6B002242A5 /* StoryBoardSupportable.swift */,
 				AF824C8F7DCCF5A3A3C983125B6B385E /* Pod */,
 				0612B7F80C82DC500AEDE68C1DB245A0 /* Support Files */,
@@ -341,19 +341,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					D888FE5EB50238649DBD2804A3530032 = {
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 69D7309C08FCA78409AA0390CA0C00BD /* Products */;
@@ -415,7 +416,7 @@
 				76FA13EF33F31DC1D8EACEBF2031D45B /* CoordinatorLibrary-dummy.m in Sources */,
 				FCE9C259223C42D9002242A5 /* ChildCoordinator.swift in Sources */,
 				FCE9C25B223C42D9002242A5 /* ChildCoordinatable.swift in Sources */,
-				FCE9C257223C42D9002242A5 /* TabBarCoordinatable.swift in Sources */,
+				FCE9C257223C42D9002242A5 /* TabBarType.swift in Sources */,
 				FCE9C274223C5675002242A5 /* AppCoordinator.swift in Sources */,
 				FCE9C278223D3D6B002242A5 /* StoryBoardSupportable.swift in Sources */,
 				FCE9C258223C42D9002242A5 /* Coordinatable.swift in Sources */,
@@ -504,7 +505,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -588,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -675,7 +677,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -720,6 +722,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
